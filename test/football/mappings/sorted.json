@@ -1,0 +1,9 @@
+[
+    {
+        "sorted": { "get": "$[*].match_updated" }
+    },
+    {
+        "sorted": "$[*]",
+        "by": "match_updated"
+    }
+]

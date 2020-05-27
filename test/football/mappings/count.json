@@ -1,0 +1,17 @@
+[
+    {
+        "count": "$[*].competition_gender"
+    },
+    {
+        "count": {
+            "filter": "$[*].competition_gender",
+            "equals": "female"
+        }
+    },
+    {
+        "count": {
+            "filter": "$[*].competition_gender",
+            "prefix": "m"
+        }
+    }
+]

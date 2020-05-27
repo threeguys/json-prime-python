@@ -1,0 +1,6 @@
+{
+    "count": {
+        "filter": "$[*].country_name",
+        "equals": "Spain"
+    }
+}

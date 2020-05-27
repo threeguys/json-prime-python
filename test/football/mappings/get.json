@@ -1,0 +1,3 @@
+[
+    { "sorted": { "unique": { "get": "$[*].country_name" } } }
+]

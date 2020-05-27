@@ -1,0 +1,14 @@
+[
+    {
+        "rate": {
+            "n": { "sum": { "count": { "filter": "$[*].competition_gender", "prefixes": [ "fem" ] } } },
+            "d": { "sum": { "count": "$[*].competition_gender" } }
+        }
+    },
+    {
+        "rate": {
+            "n": { "count": { "filter": "$[*].competition_gender", "prefixes": [ "mal" ] } },
+            "d": { "count": "$[*].competition_gender" }
+        }
+    }
+]
